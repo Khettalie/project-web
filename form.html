@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form method="post">
+            <label for="nama">Nama</label>
+            <input type="text" id="nama" name="nama"> <br>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password"> <br>
+
+            <label for="jk">Jenis Kelamin</label>
+            <input type="radio" id="jk" name="jk" value="L"> Laki-Laki
+            <input type="radio" id="jk" name="jk" value="P"> Perempuan <br>
+
+            <label for="status">Status</label>
+            <input type="checkbox" value="Y" id="status" name="status"> Menikah
+            <input type="checkbox" value="N" id="status" name="status"> Belum Menikah <br>
+            
+            <label for="hp">No. HP</label>
+            <input type="number" id="hp" name="hp"> <br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"> <br>
+            
+            <input type="submit" name="Simpan" value="Simpan">
+            <input type="reset" value="Batal"> <br>
+            
+            <h1>Komentar</h1>
+            <textarea style="resize: none;" cols="60" rows="10" id="komentar" name="komentar" placeholder="Beri tanggapan..."></textarea>
+            
+            <br>
+
+            <select name="jnsbarang">
+                <optgroup label="Hardware">
+                    <option value="Desktop" selected="true">Desktop Computers</option>
+                    <option value="Laptop">Laptop Computers</option>
+                </optgroup>
+                <optgroup label="Software">
+                    <option value="Office">Office Software</option>
+                    <option value="Games">Games</option>
+                </optgroup>
+            </select>
+        </form>
+    </body>
+</html>
